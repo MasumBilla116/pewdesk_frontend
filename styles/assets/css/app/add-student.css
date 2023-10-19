@@ -1,0 +1,14 @@
+.overlap-loader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5490196078);
+  z-index: 9;
+  display: none;
+}
+.overlap-loader div {
+  display: block;
+  margin: 10% auto;
+}/*# sourceMappingURL=add-student.css.map */

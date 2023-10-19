@@ -1,0 +1,60 @@
+@import "mixin";
+@import "var";
+
+
+
+/*start color picker style*/
+
+.bg-color-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("../../theme_icon/colour.png");
+    background-size: cover;
+    border: 1px solid aliceblue;
+    z-index: 999;
+}
+
+.z-9 {
+    z-index: 9 !important;
+}
+
+.active-color {
+    box-shadow: 0 0 12px #fff;
+}
+
+.color-indicator-1 {
+    @include ColorIndicator(#931818, 40px, 30px);
+
+}
+
+.color-indicator-2 {
+    @include ColorIndicator(#293450, 54px, 100px);
+}
+
+.color-indicator-3 {
+    @include ColorIndicator(#322D2D, 90px, 80px);
+}
+
+.color-indicator-4 {
+    @include ColorIndicator(#145414, 116px, 48px);
+}
+
+.color-indicator-5 {
+    @include ColorIndicator(#6C4600, 127px, 8px);
+}
+
+.color-indicator-6 {
+    max-width: 50px;
+    height: 30px;
+
+    @include ColorIndicator(#fff, 10px, 170px);
+    outline: none;
+    border-radius: 0;
+    border: none;
+}
+
+/*end color picker style*/

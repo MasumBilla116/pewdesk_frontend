@@ -1,0 +1,96 @@
+.student-card {
+  width: 100%;
+  height: 100;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0.5rem;
+  align-items: center;
+  outline: 1px solid rgba(163, 192, 249, 0.3490196078);
+  border-radius: 5px;
+  offset: 2px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6117647059);
+  color: aliceblue;
+  outline-color: rgba(173, 255, 226, 0.568627451);
+  background: #21496a;
+  position: relative;
+}
+.student-card .view {
+  position: absolute;
+  top: 48%;
+  background: rgba(33, 73, 106, 0.3803921569);
+  width: 53%;
+  height: 52%;
+  border-bottom-right-radius: 84%;
+  border-bottom-left-radius: 80%;
+  border: 0;
+  outline: 0;
+  transition: ease 0.3s;
+  color: rgba(255, 255, 255, 0.6509803922);
+}
+.student-card .view:hover {
+  background: rgba(33, 73, 106, 0.4705882353);
+  color: aliceblue;
+}
+.student-card .view:focus {
+  outline: 0;
+}
+.student-card img {
+  width: 50%;
+  border-radius: 50%;
+}
+.student-card .student-card-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+}
+.student-card .student-card-btn {
+  outline: none;
+  border: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+  box-sizing: border-box;
+  transition: ease 0.5s;
+}
+.student-card .student-present {
+  background: #02d002;
+}
+.student-card .student-present:focus {
+  outline: 2px solid #00ff3c;
+  outline-offset: 5px;
+}
+.student-card .student-present-active {
+  outline: 2px solid #00ff3c;
+  outline-offset: 5px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.3803921569);
+}
+.student-card .student-absent {
+  background: orangered;
+}
+.student-card .student-absent:focus {
+  outline: 2px solid orangered;
+  outline-offset: 5px;
+}
+.student-card .student-absent-active {
+  outline: 2px solid orangered;
+  outline-offset: 5px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.3803921569);
+}
+.student-card .student-null {
+  background: red;
+}
+.student-card .student-null:focus {
+  outline: 2px solid red;
+  outline-offset: 5px;
+}
+.student-card .student-null-active {
+  outline: 2px solid red;
+  outline-offset: 5px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.3803921569);
+}/*# sourceMappingURL=attendance.css.map */

@@ -1,0 +1,180 @@
+/*default Layout: 1200px*/
+/*		mini laptop Layout: 992px. */
+/*		Tablet Layout: 768px.    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .user-form {
+    width: 75% !important;
+  }
+  .erp-page-body {
+    display: flex;
+  }
+  .hr-devider-aside {
+    display: block;
+  }
+}
+/*		Mobile Layout: 320px.    */
+@media only screen and (max-width: 767px) {
+  .erp-logo {
+    display: none;
+  }
+  .user-form {
+    width: 100% !important;
+  }
+  .erp-main {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .all-content-wraper {
+    padding: 0 !important;
+    margin-top: 4rem;
+  }
+  aside {
+    max-width: 100% !important;
+  }
+  .dashboard-content {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .erp-header-left {
+    display: none !important;
+  }
+  #first-header {
+    display: block !important;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .count-message {
+    left: 8px !important;
+  }
+  .menu-bars {
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+  }
+  .erp-aside {
+    left: -100%;
+  }
+  .erp-aside-menue-toggle {
+    display: none !important;
+  }
+  .aside-fixd-none {
+    display: none !important;
+  }
+  .aside-fixd-block {
+    display: block !important;
+  }
+  .close-btn {
+    display: block;
+  }
+  #dragg {
+    margin-top: 3rem;
+  }
+  .hr-devider-aside {
+    display: block;
+  }
+  .noti-student-img-con {
+    width: 40%;
+  }
+  .noti-student-info-con {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 375px) {
+  .erp-logo {
+    display: none;
+  }
+  .user-form {
+    width: 100% !important;
+  }
+  .home {
+    display: none;
+  }
+  .all-content-wraper {
+    padding: 0 !important;
+    margin-top: 4rem;
+  }
+  .p\.3 {
+    padding: 0.3rem !important;
+  }
+  .count-message {
+    left: 8px !important;
+  }
+  #dragg {
+    margin-top: 3rem;
+  }
+  .hr-devider-aside {
+    display: block;
+  }
+}
+/*		Wide Mobile Layout: 480px.   */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .erp-logo {
+    display: none;
+  }
+  .user-form {
+    width: 90% !important;
+  }
+  .erp-main {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .all-content-wraper {
+    padding: 0 !important;
+    margin-top: 4rem;
+  }
+  aside {
+    max-width: 100% !important;
+  }
+  .dashboard-content {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .erp-header-left {
+    display: none !important;
+  }
+  #first-header {
+    display: block !important;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .menu-bars {
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+  }
+  .erp-aside {
+    left: -100%;
+  }
+  .erp-aside-menue-toggle {
+    display: none !important;
+  }
+  .aside-fixd-none {
+    display: none !important;
+  }
+  .aside-fixd-block {
+    display: block !important;
+  }
+  .close-btn {
+    display: block;
+  }
+  #dragg {
+    margin-top: 3rem;
+  }
+  .hr-devider-aside {
+    display: block;
+  }
+}
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    *//*# sourceMappingURL=responsive.css.map */

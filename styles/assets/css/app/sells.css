@@ -1,0 +1,85 @@
+.count-message {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.count-message {
+  position: absolute;
+  border-radius: 50%;
+  font-size: 11px;
+  padding-top: 3px;
+  top: 0;
+  left: 18px;
+  font-weight: bold;
+  color: white;
+  /* border: 1px solid darkblue; */
+  width: 22px;
+  height: 22px;
+  text-align: center;
+}
+
+.user-image {
+  width: 32px;
+  height: 32px;
+  /* overflow: hidden; */
+  border-radius: 50%;
+  /* margin-left: 1rem; */
+}
+
+.user-active {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #00ff00;
+  border: 2px solid #2c3a58;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+#sells-table tr th {
+  border-right: 1px solid rgba(0, 0, 0);
+}
+
+#sells-table tr th:last-child {
+  border-right: none;
+}
+
+#sells-table,
+#sells-table tr,
+#sells-table td {
+  border-spacing: 1px 9px;
+  border-collapse: separate;
+}
+
+.tbl-description-container {
+  /* position: absolute; */
+  margin-top: -14px;
+  background-color: #0a0a1c;
+  padding: 1rem;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.tbl-description-container {
+  /* position: absolute; */
+  margin-top: -14px;
+  background-color: #016a57;
+  padding: 1rem;
+  margin-left: -8px;
+  margin-right: -8px;
+  border-left: 3px solid #00dd37;
+  margin-bottom: -8px;
+}
+
+.user-container.d-flex {
+  margin-top: -7px;
+}
+
+.tbl-product-container {
+  min-height: 260px;
+}

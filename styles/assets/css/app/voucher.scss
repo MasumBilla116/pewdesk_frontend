@@ -1,0 +1,70 @@
+.voucher-con {
+    position: relative;
+
+    &::before {
+        width: 100%;
+        height: inherit;
+        background: url("../../logo/default-512x512.png") no-repeat center;
+        background-size: 70%;
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .1;
+    }
+
+    div {
+        z-index: 1;
+    }
+}
+
+.voucher-form-con {
+    display: flex;
+}
+
+.voucher-item-check {
+    color: #03ff03;
+    font-size: 2rem;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none;
+}
+
+.voucher-form-control {
+    border: 0;
+    border-bottom: 1px dashed gray;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 5px;
+    width: 100%;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.table-td-border-right tr td,
+tr th {
+    border-right: 1px solid #80808045;
+    position: relative;
+}
+
+.w-8-rem {
+    width: 8.4rem;
+}
+
+.table-form-control {
+    border: 0;
+    background-color: transparent;
+    height: 2.5rem;
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.border-left-dotted {
+    border-left: 7px dotted #858585;
+}

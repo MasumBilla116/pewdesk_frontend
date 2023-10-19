@@ -1,0 +1,95 @@
+@import "var";
+@import "mixin";
+
+.student-card {
+    width: 100%;
+    height: 100;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: .5rem;
+    align-items: center;
+    outline: 1px solid #a3c0f959;
+    border-radius: 5px;
+    offset: 2px;
+    box-shadow: 2px 5px 10px #0000009c;
+    color: aliceblue;
+    outline-color: #adffe291;
+    background: #21496a;
+    position: relative;
+
+    .view {
+        position: absolute;
+        top: 48%;
+        background: #21496a61;
+        width: 53%;
+        height: 52%;
+        border-bottom-right-radius: 84%;
+        border-bottom-left-radius: 80%;
+        border: 0;
+        outline: 0;
+        transition: ease .3s;
+        color: #ffffffa6;
+
+        &:hover {
+            background: #21496a78;
+            color: aliceblue;
+        }
+
+        &:focus {
+            outline: 0;
+        }
+
+    }
+
+    img {
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    .student-card-body {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: .2rem;
+    }
+
+    .student-card-btn {
+        outline: none;
+        border: 0;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fafafa;
+        box-sizing: border-box;
+        transition: ease .5s;
+
+    }
+
+    .student-present {
+        @include studentAttendanceBtn(#02d002, #00ff3c);
+    }
+
+    .student-present-active {
+        @include studentAttendanceBtnActive(#02d002, #00ff3c);
+    }
+
+    .student-absent {
+        @include studentAttendanceBtn(orangered, orangered);
+    }
+
+    .student-absent-active {
+        @include studentAttendanceBtnActive(orangered, orangered);
+    }
+
+    .student-null {
+        @include studentAttendanceBtn(red, red);
+    }
+
+    .student-null-active {
+        @include studentAttendanceBtnActive(red, red);
+    }
+}

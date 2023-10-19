@@ -1,0 +1,178 @@
+.erp-login-form {
+	margin-top: 2rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	width: 100%;
+	margin-right: 2rem;
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
+.erp-tab-content {
+	background: #001c1b;
+	padding: 1.3rem;
+}
+
+.erp-tab-nav {
+	display: flex;
+	justify-content: flex-end;
+	float: right;
+	font-size: 12px;
+}
+
+.erp-tab-item {
+	text-align: center;
+	text-decoration: none;
+	margin-right: 0.1rem;
+	background-color: #5b08ec;
+	color: aliceblue !important;
+	font-weight: bold;
+	padding: 0.3rem 1rem;
+	font-family: initial;
+	font-size: 1.2rem;
+}
+
+.erp-tab-item:hover {
+	border-bottom-color: #00ff29;
+	background-color: #043440;
+}
+
+.erp-tab-nav {
+	display: flex;
+	justify-content: flex-end;
+	float: right;
+	font-size: 12px;
+	margin-right: 0.33rem;
+}
+
+.erp-tab {
+	display: none;
+}
+
+.erp-tab-active {
+	background-color: #055c02;
+	border-bottom: 3px solid #00ff34;
+	display: block;
+	color: aliceblue !important;
+
+}
+
+.erp-input-dark::placeholder {
+	color: #b2b2b2;
+}
+
+.erp-tab-active:hover {
+	background-color: #00292e;
+}
+
+.erp-tab-past {
+	background-color: #18183e;
+	border-bottom: 3px solid #00cd21;
+}
+
+.erp-option-flag {
+	width: 19px;
+}
+
+.select-wrapper {
+	position: relative;
+	user-select: none;
+}
+
+.select {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.select__trigger {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #3b3b3b;
+	background: #0e0e22;
+	cursor: pointer;
+	width: min-content;
+}
+
+.custom-options {
+	position: absolute;
+	display: block;
+	top: 100%;
+	left: 0;
+	right: 0;
+	border-top: 0;
+	background: #1a1a40;
+	transition: all 0.5s;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	z-index: 2;
+	width: max-content;
+	box-shadow: 1px 1px 4px -1px rgba(0, 0, 0.2);
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.select.open .custom-options {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: all;
+}
+
+.custom-option {
+	position: relative;
+	display: block;
+	padding: 0 10px 0 10px;
+	font-size: inherit;
+	font-weight: normal;
+	color: #3b3b3b;
+	line-height: unset;
+	cursor: pointer;
+	transition: all 0.5s;
+	text-align: left;
+	border-bottom: 2px solid #0e0e25;
+}
+
+.custom-option:hover {
+	cursor: pointer;
+	background-color: #b2b2b2;
+}
+
+.custom-option.selected {
+	color: #ffffff;
+	background-color: #1a1a40;
+}
+
+.arrow {
+	position: relative;
+	width: 15px;
+	margin-left: 8px;
+}
+
+.erp-option-flag {
+	width: 19px;
+	display: inline-block;
+}
+
+.erp-flag-select {
+	width: max-content;
+	vertical-align: baseline;
+	float: left;
+	margin-top: 5px;
+}
+
+.img.img-fluid.erp-finance-img {
+	width: 100%;
+	border-radius: 0;
+	height: auto;
+}
+
+
+
+.iti--separate-dial-code {
+	width: 100% !important;
+}

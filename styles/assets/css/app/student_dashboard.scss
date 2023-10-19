@@ -1,0 +1,35 @@
+.card-student-img-con {
+    width: 50px;
+    height: 50px;
+    position: relative;
+
+    .notification {
+        position: absolute;
+        top: -11px;
+        right: -11px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: orangered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        font-family: serif;
+    }
+
+    img {
+        outline: 1px solid #ff00735e;
+        outline-offset: 5px;
+    }
+}
+
+.organization-img {
+    transition: ease-in-out .5s;
+    opacity: .75;
+
+    &:hover {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}

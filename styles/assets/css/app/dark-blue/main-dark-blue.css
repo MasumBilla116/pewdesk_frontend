@@ -1,0 +1,129 @@
+/* main style */
+@font-face {
+	font-family:"Name-Of-Font";
+	src: url("../../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+  }
+*{
+	font-family: 'Inter', sans-serif;
+}
+/* .bg-er-dark {
+	background-color: #1A1A40;
+} */
+.bg-er-dark {
+	background-color: #000524;
+}
+.bg-er-dark-black{
+    background-color: #041C32;
+}
+.erp-login-form {
+	margin-top: 5rem;
+	background-color: rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 5px;
+	width: 300px;
+}
+.erp-btn-primary {
+	background-color: #5b08ec;
+	border: none;
+}
+.erp-form-loader {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #1a1a40d6;
+	z-index: 3;
+}
+.erp-loader-container-inner {
+	margin: 0;
+	position: absolute;
+	top: 42%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-size: 44px;
+	width: 100%;
+	height: 115px;
+}
+.text-black {
+	color: black;
+}
+.erp-gear-first {
+	position: absolute;
+	left: 145px;
+	top: -2px;
+}
+.erp-gear-second {
+	position: absolute;
+	left: 42%;
+	top: 36%;
+}
+.erp-gear-third {
+	position: absolute;
+	left: 51%;
+	top: 11%;
+	bottom: 108px;
+}
+.erp-btn-primary:hover,.erp-btn-primary:active {
+	background-color: #4403b5;
+	border-color: #4403b5;
+}
+.erp-btn-primary:focus {
+	color: #fff;
+	background-color: #4403b5;
+	border-color: #4403b5;
+	box-shadow: 0 0 0 .25rem #4403b5cc;
+}
+.form-control:disabled, .form-control[readonly] {
+	background-color: #2e2e68ba;
+	opacity: 1;
+	border: none;
+}
+.btn-success.disabled, .btn-success:disabled {
+	color: #fff;
+	background-color: #27275b;
+	border-color: #198754;
+}
+.erp-header-left {
+	max-width: 350px;
+	width: 100%;
+}
+.erp-header.d-lg-flex img {
+	width: 36px;
+	margin-top: 8px;
+}
+.erp-page-body.d-lg-flex {
+	min-height: 100vh;
+}
+/* .erp-aside {
+	width: 350px;
+	background-color: #0d0d22;
+	border-top: 2px solid rgba(0,0,0,0.3);
+	min-width: 350px;
+} */
+.erp-aside {
+	width: 350px;
+	background-color: #010417f0;
+	border-top: 2px solid rgba(0,0,0,0.3);
+	min-width: 350px;
+	transition: 1s all ease;
+}
+.erp-header-container {
+	background-color: rgb(13, 13, 34);
+}
+.erp-main {
+	width: 100%;
+}
+.erp-main {
+	width: 100%;
+	border-top: 2px solid rgba(0,0,0,0.3);
+}
+.erp-header-right {
+	width: 100%;
+	background-color: #161637;
+}
+.erp-aside-menue {
+	font-size: 13px;
+	padding-left: 0;
+	list-style-type: none;
+}

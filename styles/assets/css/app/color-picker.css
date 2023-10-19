@@ -1,0 +1,118 @@
+/*start color picker style*/
+.bg-color-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("../../theme_icon/colour.png");
+  background-size: cover;
+  border: 1px solid aliceblue;
+  z-index: 999;
+}
+
+.z-9 {
+  z-index: 9 !important;
+}
+
+.active-color {
+  box-shadow: 0 0 12px #fff;
+}
+
+.color-indicator-1 {
+  width: 30px;
+  height: 30px;
+  background-color: #931818;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  opacity: 1;
+  z-index: -2;
+  cursor: pointer;
+  outline: 1px solid #931818;
+  outline-offset: 2px;
+}
+
+.color-indicator-2 {
+  width: 30px;
+  height: 30px;
+  background-color: #293450;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  opacity: 1;
+  z-index: -2;
+  cursor: pointer;
+  outline: 1px solid #293450;
+  outline-offset: 2px;
+}
+
+.color-indicator-3 {
+  width: 30px;
+  height: 30px;
+  background-color: #322D2D;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  opacity: 1;
+  z-index: -2;
+  cursor: pointer;
+  outline: 1px solid #322D2D;
+  outline-offset: 2px;
+}
+
+.color-indicator-4 {
+  width: 30px;
+  height: 30px;
+  background-color: #145414;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  opacity: 1;
+  z-index: -2;
+  cursor: pointer;
+  outline: 1px solid #145414;
+  outline-offset: 2px;
+}
+
+.color-indicator-5 {
+  width: 30px;
+  height: 30px;
+  background-color: #6C4600;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  opacity: 1;
+  z-index: -2;
+  cursor: pointer;
+  outline: 1px solid #6C4600;
+  outline-offset: 2px;
+}
+
+.color-indicator-6 {
+  max-width: 50px;
+  height: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  opacity: 1;
+  z-index: -2;
+  cursor: pointer;
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+  outline: none;
+  border-radius: 0;
+  border: none;
+}
+
+/*end color picker style*//*# sourceMappingURL=color-picker.css.map */

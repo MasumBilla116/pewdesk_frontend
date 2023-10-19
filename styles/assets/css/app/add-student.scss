@@ -1,0 +1,15 @@
+.overlap-loader {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #0000008c;
+    z-index: 9;
+    display: none;
+
+    div {
+        display: block;
+        margin: 10% auto;
+    }
+}
